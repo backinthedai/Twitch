@@ -1,0 +1,32 @@
+body{
+     background-color: greenyellow; 
+    color:white;
+    font-family:'Lobster';
+    background-size:cover;
+  }
+
+img{
+    width:100px;
+    height:100px;
+    border-radius:50%;
+  }
+
+   .row{
+    padding: 10px;
+     background: rgba(0,0,0,.45); 
+    /* border: 5px white solid; */
+    border-radius:25vh;
+    margin-bottom:5vh;
+    text-align: center;
+  } 
+
+  .col-md-4{
+    padding:10px; 
+  }
+  
+  #header{
+    background:rgba(0, 0, 0, 0.75);
+      border: 1vh white solid;
+      border-radius:25px;
+      margin-bottom: 5vh;
+    }

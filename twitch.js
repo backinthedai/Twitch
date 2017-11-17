@@ -25,7 +25,7 @@ $(document).ready(function () {
                             $("#liveStatus").html("G.I.G. stream is currently Offline");
                         
                             var player = new Twitch.Player("<player div ID>", streamOptions(liveName));
-                            player.setVolume(0.5);
+                            player.setVolume(0);
                         }
                         else {
                             $("#liveStatus").html("G.I.G. stream is currenly Live");
